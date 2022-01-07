@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @RequiredArgsConstructor
 @RequestMapping("/status")
 public class StatusController {
-    private final String restUri = "http://spring-rest/";
+    private final String restUri = "http://spring-rest:8081/";
     private final RestTemplate restTemplate;
 
     @GetMapping("/server")
