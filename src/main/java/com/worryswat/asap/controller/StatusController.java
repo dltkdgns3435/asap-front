@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/status")
 public class StatusController {
 
-    @Value("${rest.uri}")
+    @Value("${spring.rest.uri}")
     private String restUri;
     private final RestTemplate restTemplate;
 
