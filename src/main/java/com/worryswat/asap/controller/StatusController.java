@@ -22,7 +22,6 @@ public class StatusController {
         String response = restTemplate.getForObject(uri, String.class);
 
         return "ok / "+response;
-        //ok / rest-ok
     }
 
 }
